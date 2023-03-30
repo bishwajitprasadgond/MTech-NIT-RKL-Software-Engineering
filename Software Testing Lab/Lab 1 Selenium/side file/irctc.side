@@ -1,0 +1,216 @@
+{
+  "id": "28bd2aeb-10ea-4da2-b8b6-48de83ca6602",
+  "version": "2.0",
+  "name": "mygov",
+  "url": "https://www.irctc.co.in/",
+  "tests": [{
+    "id": "b9271710-18f9-45cd-8707-b19e05205e62",
+    "name": "mygov",
+    "commands": [{
+      "id": "de2ae04f-0867-4288-ad45-97c26eabe562",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "104a4d76-efdd-4285-91f8-e32278d62173",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce99dbf7-b8e2-465c-931b-2a08c5cb36c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.poll-icon > i",
+      "targets": [
+        ["css=.poll-icon > i", "css:finder"],
+        ["xpath=//div[@id='involved-block']/div/div[2]/div[3]/a/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09256f8c-c251-43fa-8e3b-66cef05f7723",
+      "comment": "",
+      "command": "click",
+      "target": "css=.creative-list .views-row:nth-child(2) > .views-field:nth-child(1) a",
+      "targets": [
+        ["css=.creative-list .views-row:nth-child(2) > .views-field:nth-child(1) a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Make Your Contribution')])[7]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/task/compose-poem-netaji-subhash-chandra-bose/')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/div/span/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab29b96c-f145-42c3-bad4-82ad894a6817",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit_search",
+      "targets": [
+        ["id=edit_search", "id"],
+        ["css=#edit_search", "css:finder"],
+        ["xpath=//input[@id='edit_search']", "xpath:attributes"],
+        ["xpath=//div[@id='block-do-discuss-filter-do-discuss']/div/div[3]/div/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb290e37-6098-4548-9e7c-a97a118856fe",
+      "comment": "",
+      "command": "type",
+      "target": "id=edit_search",
+      "targets": [
+        ["id=edit_search", "id"],
+        ["css=#edit_search", "css:finder"],
+        ["xpath=//input[@id='edit_search']", "xpath:attributes"],
+        ["xpath=//div[@id='block-do-discuss-filter-do-discuss']/div/div[3]/div/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "republic day"
+    }, {
+      "id": "1bdb8285-12ba-40d0-b96b-ecec0d1b51c1",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit_search_btn",
+      "targets": [
+        ["id=edit_search_btn", "id"],
+        ["css=#edit_search_btn", "css:finder"],
+        ["xpath=//input[@id='edit_search_btn']", "xpath:attributes"],
+        ["xpath=//div[@id='block-do-discuss-filter-do-discuss']/div/div[3]/div/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ef8a4db-1dbb-4dec-9dc6-63ab44b7f751",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit_search_btn",
+      "targets": [
+        ["id=edit_search_btn", "id"],
+        ["css=#edit_search_btn", "css:finder"],
+        ["xpath=//input[@id='edit_search_btn']", "xpath:attributes"],
+        ["xpath=//div[@id='block-do-discuss-filter-do-discuss']/div/div[3]/div/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c4115561-4eae-4b6c-a33b-ea3cc28513e0",
+    "name": "irctc",
+    "commands": [{
+      "id": "03bbd447-57ca-4533-af8e-b8f4c9630265",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.irctc.co.in/nget/train-search",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d99cf01-42bd-49fa-b90d-403b158b23c1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f7d33a8-f071-4941-9f1f-ee63ba95b3dd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.hidden-xs > .pull-right .search_btn",
+      "targets": [
+        ["css=.hidden-xs > .pull-right .search_btn", "css:finder"],
+        ["xpath=//div[@id='divMain']/div/app-main-page/div/div/div/div/div/div/div[2]/a/label", "xpath:idRelative"],
+        ["xpath=//div[2]/a/label", "xpath:position"],
+        ["xpath=//label[contains(.,'CHARTS / VACANCY')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "54f7da12-ddd3-4b02-89ca-7521bdf36d12",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.hidden-xs > .pull-right .search_btn",
+      "targets": [
+        ["css=.hidden-xs > .pull-right .search_btn", "css:finder"],
+        ["xpath=//div[@id='divMain']/div/app-main-page/div/div/div/div/div/div/div[2]/a/label", "xpath:idRelative"],
+        ["xpath=//div[2]/a/label", "xpath:position"],
+        ["xpath=//label[contains(.,'CHARTS / VACANCY')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ab3dfd2-94ae-4af1-8a52-8fd61ec14c7b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.circletwo",
+      "targets": [
+        ["css=.circletwo", "css:finder"],
+        ["xpath=//li[@id='stayIcon']/a/span", "xpath:idRelative"],
+        ["xpath=//div/ul/li[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "468a5ae5-dcf6-46f1-b320-c3bd935fe7da",
+      "comment": "",
+      "command": "click",
+      "target": "css=.circletwo",
+      "targets": [
+        ["css=.circletwo", "css:finder"],
+        ["xpath=//li[@id='stayIcon']/a/span", "xpath:idRelative"],
+        ["xpath=//div/ul/li[2]/a/span", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8355",
+      "windowTimeout": 2000
+    }, {
+      "id": "a9a6912b-0eee-4d0d-8ef2-92ee737f9c77",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.circletwo",
+      "targets": [
+        ["css=.circletwo", "css:finder"],
+        ["xpath=//li[@id='stayIcon']/a/span", "xpath:idRelative"],
+        ["xpath=//div/ul/li[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b69916d-4462-4705-b651-3b787f20d502",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8355}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d22cdad-0e3d-4f73-b194-1821f4c4aed7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.RetiringRoom",
+      "targets": [
+        ["css=.RetiringRoom", "css:finder"],
+        ["xpath=//div[@id='scroll']/div/ul/li[4]/a/div", "xpath:idRelative"],
+        ["xpath=//li[4]/a/div", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9898",
+      "windowTimeout": 2000
+    }, {
+      "id": "9a9bc79e-a5f4-4a34-8a05-02baf91c205d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9898}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ac3e642c-e131-4bee-985d-681b00489567",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b9271710-18f9-45cd-8707-b19e05205e62"]
+  }],
+  "urls": ["https://www.mygov.in/", "https://www.irctc.co.in/"],
+  "plugins": []
+}

@@ -1,0 +1,528 @@
+{
+  "id": "28bd2aeb-10ea-4da2-b8b6-48de83ca6602",
+  "version": "2.0",
+  "name": "bishwajit ",
+  "url": "https://www.passportindia.gov.in/AppOnlineProject/welcomeLink",
+  "tests": [{
+    "id": "b9271710-18f9-45cd-8707-b19e05205e62",
+    "name": "mygov",
+    "commands": [{
+      "id": "de2ae04f-0867-4288-ad45-97c26eabe562",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "104a4d76-efdd-4285-91f8-e32278d62173",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce99dbf7-b8e2-465c-931b-2a08c5cb36c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.poll-icon > i",
+      "targets": [
+        ["css=.poll-icon > i", "css:finder"],
+        ["xpath=//div[@id='involved-block']/div/div[2]/div[3]/a/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09256f8c-c251-43fa-8e3b-66cef05f7723",
+      "comment": "",
+      "command": "click",
+      "target": "css=.creative-list .views-row:nth-child(2) > .views-field:nth-child(1) a",
+      "targets": [
+        ["css=.creative-list .views-row:nth-child(2) > .views-field:nth-child(1) a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Make Your Contribution')])[7]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/task/compose-poem-netaji-subhash-chandra-bose/')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/div/span/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab29b96c-f145-42c3-bad4-82ad894a6817",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit_search",
+      "targets": [
+        ["id=edit_search", "id"],
+        ["css=#edit_search", "css:finder"],
+        ["xpath=//input[@id='edit_search']", "xpath:attributes"],
+        ["xpath=//div[@id='block-do-discuss-filter-do-discuss']/div/div[3]/div/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb290e37-6098-4548-9e7c-a97a118856fe",
+      "comment": "",
+      "command": "type",
+      "target": "id=edit_search",
+      "targets": [
+        ["id=edit_search", "id"],
+        ["css=#edit_search", "css:finder"],
+        ["xpath=//input[@id='edit_search']", "xpath:attributes"],
+        ["xpath=//div[@id='block-do-discuss-filter-do-discuss']/div/div[3]/div/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "republic day"
+    }, {
+      "id": "1bdb8285-12ba-40d0-b96b-ecec0d1b51c1",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit_search_btn",
+      "targets": [
+        ["id=edit_search_btn", "id"],
+        ["css=#edit_search_btn", "css:finder"],
+        ["xpath=//input[@id='edit_search_btn']", "xpath:attributes"],
+        ["xpath=//div[@id='block-do-discuss-filter-do-discuss']/div/div[3]/div/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ef8a4db-1dbb-4dec-9dc6-63ab44b7f751",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit_search_btn",
+      "targets": [
+        ["id=edit_search_btn", "id"],
+        ["css=#edit_search_btn", "css:finder"],
+        ["xpath=//input[@id='edit_search_btn']", "xpath:attributes"],
+        ["xpath=//div[@id='block-do-discuss-filter-do-discuss']/div/div[3]/div/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c4115561-4eae-4b6c-a33b-ea3cc28513e0",
+    "name": "irctc",
+    "commands": [{
+      "id": "03bbd447-57ca-4533-af8e-b8f4c9630265",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.irctc.co.in/nget/train-search",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d99cf01-42bd-49fa-b90d-403b158b23c1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f7d33a8-f071-4941-9f1f-ee63ba95b3dd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.hidden-xs > .pull-right .search_btn",
+      "targets": [
+        ["css=.hidden-xs > .pull-right .search_btn", "css:finder"],
+        ["xpath=//div[@id='divMain']/div/app-main-page/div/div/div/div/div/div/div[2]/a/label", "xpath:idRelative"],
+        ["xpath=//div[2]/a/label", "xpath:position"],
+        ["xpath=//label[contains(.,'CHARTS / VACANCY')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "54f7da12-ddd3-4b02-89ca-7521bdf36d12",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.hidden-xs > .pull-right .search_btn",
+      "targets": [
+        ["css=.hidden-xs > .pull-right .search_btn", "css:finder"],
+        ["xpath=//div[@id='divMain']/div/app-main-page/div/div/div/div/div/div/div[2]/a/label", "xpath:idRelative"],
+        ["xpath=//div[2]/a/label", "xpath:position"],
+        ["xpath=//label[contains(.,'CHARTS / VACANCY')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ab3dfd2-94ae-4af1-8a52-8fd61ec14c7b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.circletwo",
+      "targets": [
+        ["css=.circletwo", "css:finder"],
+        ["xpath=//li[@id='stayIcon']/a/span", "xpath:idRelative"],
+        ["xpath=//div/ul/li[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "468a5ae5-dcf6-46f1-b320-c3bd935fe7da",
+      "comment": "",
+      "command": "click",
+      "target": "css=.circletwo",
+      "targets": [
+        ["css=.circletwo", "css:finder"],
+        ["xpath=//li[@id='stayIcon']/a/span", "xpath:idRelative"],
+        ["xpath=//div/ul/li[2]/a/span", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8355",
+      "windowTimeout": 2000
+    }, {
+      "id": "a9a6912b-0eee-4d0d-8ef2-92ee737f9c77",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.circletwo",
+      "targets": [
+        ["css=.circletwo", "css:finder"],
+        ["xpath=//li[@id='stayIcon']/a/span", "xpath:idRelative"],
+        ["xpath=//div/ul/li[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b69916d-4462-4705-b651-3b787f20d502",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8355}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d22cdad-0e3d-4f73-b194-1821f4c4aed7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.RetiringRoom",
+      "targets": [
+        ["css=.RetiringRoom", "css:finder"],
+        ["xpath=//div[@id='scroll']/div/ul/li[4]/a/div", "xpath:idRelative"],
+        ["xpath=//li[4]/a/div", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9898",
+      "windowTimeout": 2000
+    }, {
+      "id": "9a9bc79e-a5f4-4a34-8a05-02baf91c205d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9898}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f00472c9-d73b-493f-b9e2-2364300b7d80",
+    "name": "uidai",
+    "commands": [{
+      "id": "d8f3e358-733e-46eb-be2d-e57168f0406f",
+      "comment": "",
+      "command": "open",
+      "target": "https://uidai.gov.in/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4567320c-3596-4ee3-8704-5da0bc5f73d1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "241c0eeb-a396-49ec-ac15-84a8f8d902b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.en",
+      "targets": [
+        ["css=.en", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'English')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c765d08-4f24-46af-8fbc-466eb504cd53",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Locate an Enrolment Center",
+      "targets": [
+        ["linkText=Locate an Enrolment Center", "linkText"],
+        ["css=.item-2378 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Locate an Enrolment Center')]", "xpath:link"],
+        ["xpath=//div[@id='maincontent']/div[2]/div/div[2]/div[3]/div/ul/li/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://appointments.uidai.gov.in/easearch.aspx')])[3]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li/ul/li/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6972",
+      "windowTimeout": 2000
+    }, {
+      "id": "e2d0bfa9-d63a-4da3-82d7-885bc1eca6d5",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6972}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2051145b-b345-410a-97e7-46800ccbdec0",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_pincodebutton",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_pincodebutton", "id"],
+        ["name=ctl00$ContentPlaceHolder1$pincodebutton", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_pincodebutton", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_pincodebutton']", "xpath:attributes"],
+        ["xpath=//div[@id='maincontent']/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "776fd51b-b283-4468-9759-ac19fea4b2bc",
+    "name": "sarkariresult",
+    "commands": [{
+      "id": "ab9aad03-2b8d-4d92-9a68-f158cf959b9b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.sarkariresult.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "929442bb-78a7-4495-8e1b-259ba8522582",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Latest Jobs",
+      "targets": [
+        ["linkText=Latest Jobs", "linkText"],
+        ["css=li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Latest Jobs')]", "xpath:link"],
+        ["xpath=//div[@id='wrap']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.sarkariresult.com/latestjob/')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Latest Jobs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b4df54b-d4c3-4a4a-bf30-bdb3c816ce58",
+      "comment": "",
+      "command": "verifyText",
+      "target": "DRDO",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "bb1a1744-4cfe-4d68-9041-5e4d886a083e",
+    "name": "coWin",
+    "commands": [{
+      "id": "b400f23a-b766-4115-a5aa-0f5e24ad9197",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.cowin.gov.in/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ed5e626-112e-4dd2-945d-3fa32a6fc56c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accessibility-plugin-ac:nth-child(2) > .dropdwnbtn",
+      "targets": [
+        ["css=.accessibility-plugin-ac:nth-child(2) > .dropdwnbtn", "css:finder"],
+        ["xpath=//a[contains(text(),'Dashboard')]", "xpath:link"],
+        ["xpath=//header[@id='navbar']/div[4]/div/div/div/nav/div[3]/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://dashboard.cowin.gov.in')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70135fcf-13b2-4f4f-a6a6-74bfe9ca4c6e",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "CoWIN",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "50eda0d1-5cfc-425c-a7bc-3f13b7d4a728",
+    "name": "zimbra",
+    "commands": [{
+      "id": "5afb0fd5-571d-427f-876e-a9fa6cc98219",
+      "comment": "",
+      "command": "open",
+      "target": "https://mail.nitrkl.ac.in/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7a9fca4-e649-458c-bb97-ea1ab51af1fe",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "222CS3113"
+    }, {
+      "id": "cb6e9366-4106-475b-9358-8daef13448a1",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "S2FEB4536"
+    }, {
+      "id": "d4ade48f-47bf-4571-8817-d1ac7ed0008c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ZLoginButton",
+      "targets": [
+        ["css=.ZLoginButton", "css:finder"],
+        ["xpath=//input[@value='Sign In']", "xpath:attributes"],
+        ["xpath=//td[2]/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d3b6b9f6-e6c6-4266-9d7d-cdee10965ee4",
+    "name": "nasa",
+    "commands": [{
+      "id": "c2fca241-2fc6-40c3-80d5-757b0f507e7c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.nasa.gov/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b72166b2-217e-4e8a-b62a-65baffa51edc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown:nth-child(4) span",
+      "targets": [
+        ["css=.dropdown:nth-child(4) span", "css:finder"],
+        ["xpath=//ul[@id='nasa-main-menu']/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'NASA TV')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "60a8964d-7329-452f-8e3e-f16bc2bab9d8",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.body",
+      "targets": [
+        ["css=.body", "css:finder"],
+        ["xpath=//div[@id='ember60']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "454edcdd-ef7d-4121-b4d8-4e0d3fe80183",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.nasa-tv-schedule__container",
+      "targets": [
+        ["css=.nasa-tv-schedule__container", "css:finder"],
+        ["xpath=//div[@id='ember21']/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[3]/div", "xpath:position"]
+      ],
+      "value": "NASA"
+    }, {
+      "id": "06f06099-6933-4a7f-8bc5-ee820f21d0fe",
+      "comment": "",
+      "command": "echo",
+      "target": "$(NASA)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ada005b0-99bc-4d58-9fd4-2a6e63588c18",
+    "name": "coursera",
+    "commands": [{
+      "id": "bbd3212a-3377-42b2-9e37-980b18a0d617",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.coursera.org/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d641d92-7720-4938-b888-558cbf01146b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-o6y6eg:nth-child(3) .cds-33:nth-child(1)",
+      "targets": [
+        ["css=.css-o6y6eg:nth-child(3) .cds-33:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='rendered-content']/div/main/section[3]/div/div/div[2]/a[3]/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//a[3]/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d521aa1-4b18-42cd-ba6a-4b4b8ad6b5fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.subdomain-link:nth-child(1) .cds-33",
+      "targets": [
+        ["css=.subdomain-link:nth-child(1) .cds-33", "css:finder"],
+        ["xpath=//div[@id='rendered-content']/div/div/div/div/section/div/div/div/div/header/div/div[3]/div/a/h2", "xpath:idRelative"],
+        ["xpath=//a/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Software Development')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4752f326-d8b9-4543-a346-39057991edcb",
+      "comment": "",
+      "command": "verifyText",
+      "target": "Cyber",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "10bf8e21-dbbd-4c00-9d44-93157409ae78",
+    "name": "passportseva",
+    "commands": [{
+      "id": "a365740b-6564-4303-90ed-1ab6b38e834f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.passportindia.gov.in/AppOnlineProject/welcomeLink",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "69f7366e-a60d-48e1-bc00-32137539bb25",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=X",
+      "targets": [
+        ["linkText=X", "linkText"],
+        ["css=.twoyears-close-btn", "css:finder"],
+        ["xpath=//a[contains(text(),'X')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[14]", "xpath:href"],
+        ["xpath=//body/div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'X')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "033c8271-9687-4e8e-833d-5a3c4c36fcd2",
+      "comment": "",
+      "command": "storeTitle",
+      "target": "passport",
+      "targets": [],
+      "value": "title"
+    }, {
+      "id": "1079e57f-6cc1-4983-b76b-f46d8b1d83a5",
+      "comment": "",
+      "command": "echo",
+      "target": "the page title is $(title)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ac3e642c-e131-4bee-985d-681b00489567",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b9271710-18f9-45cd-8707-b19e05205e62"]
+  }],
+  "urls": ["https://www.mygov.in/", "https://www.irctc.co.in/", "https://uidai.gov.in/", "https://www.sarkariresult.com/", "https://www.nasa.gov/", "https://www.coursera.org/", "https://www.passportindia.gov.in/AppOnlineProject/welcomeLink"],
+  "plugins": []
+}

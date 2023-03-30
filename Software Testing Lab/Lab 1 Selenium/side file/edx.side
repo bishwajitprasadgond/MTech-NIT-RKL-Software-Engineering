@@ -1,0 +1,231 @@
+{
+  "id": "49b931b0-6b31-4a96-9473-0e348f09da32",
+  "version": "2.0",
+  "name": "Bishwajit",
+  "url": "https://www.edx.org/",
+  "tests": [{
+    "id": "e6453395-2f06-42bf-818f-06ac10b93f4e",
+    "name": "wikipedia",
+    "commands": [{
+      "id": "68f0dcf3-9442-4c38-a615-26bc67c1a423",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.wikipedia.org/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6fb8ba0b-7608-4118-becc-ffcf72974c8c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5320cb4-1964-4436-a5c2-73031a8ee0e3",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "india"
+    }, {
+      "id": "5b70079c-2436-44d8-880b-e3296ddf4f0b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.svg-search-icon",
+      "targets": [
+        ["css=.svg-search-icon", "css:finder"],
+        ["xpath=//form[@id='search-form']/fieldset/button/i", "xpath:idRelative"],
+        ["xpath=//button/i", "xpath:position"],
+        ["xpath=//i[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "faf003b5-c8c5-4728-971e-426d3f1619ce",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=India (disambiguation)",
+      "targets": [
+        ["linkText=India (disambiguation)", "linkText"],
+        ["css=.mw-disambig", "css:finder"],
+        ["xpath=//a[contains(text(),'India (disambiguation)')]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/India_(disambiguation)')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'India (disambiguation)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "65968f74-6c6f-4e35-a3bc-ff1441fce9e1",
+    "name": "allnovel",
+    "commands": [{
+      "id": "42afd832-6fe0-4a36-8c02-3a3055425714",
+      "comment": "",
+      "command": "open",
+      "target": "https://allnovel.net/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8721afc6-cee6-4d93-896b-3ae3df7e64aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(2) > .list-category",
+      "targets": [
+        ["css=a:nth-child(2) > .list-category", "css:finder"],
+        ["xpath=//div[@id='content-wrapper']/div/div[2]/div/a/div", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26768bd8-6be0-4fb9-81b8-63a67f8444d1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,105.5999984741211)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c24699aa-0bd6-4e3c-8d20-e4b2462dec50",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-2:nth-child(9) .title-home-novel",
+      "targets": [
+        ["css=.col-md-2:nth-child(9) .title-home-novel", "css:finder"],
+        ["xpath=//div[@id='content-wrapper']/div/div/div/div/div[9]/div/a/div", "xpath:idRelative"],
+        ["xpath=//div[9]/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2c7fb53-2bda-4abd-b84f-209ff8140761",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=a:nth-child(9) > .list-category",
+      "targets": [
+        ["css=a:nth-child(9) > .list-category", "css:finder"],
+        ["xpath=//div[@id='content-wrapper']/div/div[2]/div/a[8]/div", "xpath:idRelative"],
+        ["xpath=//a[8]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8857e2ff-f37e-46c0-8088-f22e0236dcf1",
+      "comment": "",
+      "command": "click",
+      "target": "css=a > .btn-success",
+      "targets": [
+        ["css=a > .btn-success", "css:finder"],
+        ["xpath=//div[@id='content-wrapper']/div/div/div/div/div[2]/div/div[2]/a[2]/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,' Read Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "379c821b-8bbb-4cf2-90ee-de816b78cde2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7eeef3bb-2b04-46a1-8b6d-c65ecdfc3086",
+    "name": "edx",
+    "commands": [{
+      "id": "ce6d510b-670d-428c-85fa-6390a0d16b0a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.edx.org/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e55b78e6-b567-4bf2-8dce-cb66b86c21c9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb5c723e-ac62-4452-b1a0-1138cff7e81d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-card-sizing-wrapper:nth-child(3) span:nth-child(1) > span:nth-child(1) > span:nth-child(3)",
+      "targets": [
+        ["css=.product-card-sizing-wrapper:nth-child(3) span:nth-child(1) > span:nth-child(1) > span:nth-child(3)", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div[3]/div/div/div/div/div[2]/div[2]/div[3]/div/a/div/div[2]/div/h2/span/span/span[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/div/div[2]/div/h2/span/span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19f81864-0a70-40eb-ae44-8d909fc8e82b",
+      "comment": "",
+      "command": "click",
+      "target": "id=nav-certificate",
+      "targets": [
+        ["id=nav-certificate", "id"],
+        ["css=#nav-certificate", "css:finder"],
+        ["xpath=//button[@id='nav-certificate']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/section/div[2]/div/nav/ul/li[3]/button", "xpath:idRelative"],
+        ["xpath=//li[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Certificate')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d6b20cd-984c-4b9c-92e7-8ee0df1374ee",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=nav-certificate",
+      "targets": [
+        ["id=nav-certificate", "id"],
+        ["css=#nav-certificate", "css:finder"],
+        ["xpath=//button[@id='nav-certificate']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/section/div[2]/div/nav/ul/li[3]/button", "xpath:idRelative"],
+        ["xpath=//li[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Certificate')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbeedacf-7ddc-44f3-afed-2faacc8ec4a1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=nav-certificate",
+      "targets": [
+        ["id=nav-certificate", "id"],
+        ["css=#nav-certificate", "css:finder"],
+        ["xpath=//button[@id='nav-certificate']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/section/div[2]/div/nav/ul/li[3]/button", "xpath:idRelative"],
+        ["xpath=//li[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52e7d6a4-0e49-4658-a6f0-37ab50ba58ba",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Blog",
+      "targets": [
+        ["linkText=Blog", "linkText"],
+        ["css=.mb-4:nth-child(2) .mb-2:nth-child(1) > .footer-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Blog')]", "xpath:link"],
+        ["xpath=//div[@id='page']/div[2]/footer/div/div[2]/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://blog.edx.org')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Blog')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d1024ee2-0764-4fb3-844a-bbc1ca1a3c87",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.wikipedia.org/", "https://allnovel.net/"],
+  "plugins": []
+}

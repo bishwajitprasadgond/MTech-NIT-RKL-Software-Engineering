@@ -1,0 +1,121 @@
+{
+  "id": "8c1454f3-65ba-4986-b423-c4a7d6929376",
+  "version": "2.0",
+  "name": "Calculator",
+  "url": "https://www.nitrkl.ac.in",
+  "tests": [{
+    "id": "a08d896c-3aa0-4cbb-b668-f256a6f9e995",
+    "name": "Untitled",
+    "commands": [{
+      "id": "4b43ea6b-e269-4e7a-829f-fbcfaabb824a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c05f7f5-61f2-4ff8-bb98-b3150ab1942f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08b20e95-e851-4e48-aa1c-03bccdb2b416",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tmenu-academics > a",
+      "targets": [
+        ["css=#tmenu-academics > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Academics')]", "xpath:link"],
+        ["xpath=//li[@id='tmenu-academics']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[13]", "xpath:href"],
+        ["xpath=//nav/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0bcc060-78a7-4643-9142-e3e3b4bfa4c7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Departments",
+      "targets": [
+        ["linkText=Departments", "linkText"],
+        ["css=#submenu-department > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Departments')])[2]", "xpath:link"],
+        ["xpath=//li[@id='submenu-department']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[14]", "xpath:href"],
+        ["xpath=//nav/ul/li[3]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3c1e07f-0bf1-45e3-bab4-d67c8ff56e0d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Computer Science and Engineering",
+      "targets": [
+        ["linkText=Computer Science and Engineering", "linkText"],
+        ["css=#thirdmenu-deptcs > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Computer Science and Engineering')]", "xpath:link"],
+        ["xpath=//li[@id='thirdmenu-deptcs']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://website.nitrkl.ac.in/CS/')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Computer Science and Engineering')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0e92d4d-20fe-43db-ac8b-c590c16519f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.home2",
+      "targets": [
+        ["css=.home2", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65f78409-d2c6-423f-86f6-f3800d6edeff",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_a_66",
+      "targets": [
+        ["id=ContentPlaceHolder1_a_66", "id"],
+        ["linkText=Projects", "linkText"],
+        ["css=#ContentPlaceHolder1_a_66", "css:finder"],
+        ["xpath=//a[contains(text(),'Projects')]", "xpath:link"],
+        ["xpath=//a[@id='ContentPlaceHolder1_a_66']", "xpath:attributes"],
+        ["xpath=//li[@id='ContentPlaceHolder1_li_projects']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../Academics/AcademicDepartments/Projects.aspx?fgdhwe34=Q1M6Q29tcHV0ZXIgU2NpZW5jZSBhbmQgRW5naW5lZXJpbmc%3d-MBb7wMG%2fNVo%3d')]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Projects')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "edec0771-ee49-45da-9d3b-69262ec8e411",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_a_356",
+      "targets": [
+        ["id=ContentPlaceHolder1_a_356", "id"],
+        ["linkText=Curricula & Syllabi", "linkText"],
+        ["css=#ContentPlaceHolder1_a_356", "css:finder"],
+        ["xpath=//a[contains(text(),'Curricula & Syllabi')]", "xpath:link"],
+        ["xpath=//a[@id='ContentPlaceHolder1_a_356']", "xpath:attributes"],
+        ["xpath=//li[@id='ContentPlaceHolder1_li_curricula']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'CurriculaSyllabi.aspx?fgdhwe34=Q1M6Q29tcHV0ZXIgU2NpZW5jZSBhbmQgRW5naW5lZXJpbmc%3d-MBb7wMG%2fNVo%3d')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Curricula & Syllabi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b4631009-1c8f-4e8c-95fc-76d1bf408914",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a08d896c-3aa0-4cbb-b668-f256a6f9e995"]
+  }],
+  "urls": ["https://www.nitrkl.ac.in/"],
+  "plugins": []
+}

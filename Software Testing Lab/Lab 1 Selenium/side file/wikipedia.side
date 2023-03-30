@@ -1,0 +1,76 @@
+{
+  "id": "49b931b0-6b31-4a96-9473-0e348f09da32",
+  "version": "2.0",
+  "name": "Bishwajit",
+  "url": "https://www.wikipedia.org/",
+  "tests": [{
+    "id": "e6453395-2f06-42bf-818f-06ac10b93f4e",
+    "name": "wikipedia",
+    "commands": [{
+      "id": "68f0dcf3-9442-4c38-a615-26bc67c1a423",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.wikipedia.org/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6fb8ba0b-7608-4118-becc-ffcf72974c8c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5320cb4-1964-4436-a5c2-73031a8ee0e3",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "india"
+    }, {
+      "id": "5b70079c-2436-44d8-880b-e3296ddf4f0b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.svg-search-icon",
+      "targets": [
+        ["css=.svg-search-icon", "css:finder"],
+        ["xpath=//form[@id='search-form']/fieldset/button/i", "xpath:idRelative"],
+        ["xpath=//button/i", "xpath:position"],
+        ["xpath=//i[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "faf003b5-c8c5-4728-971e-426d3f1619ce",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=India (disambiguation)",
+      "targets": [
+        ["linkText=India (disambiguation)", "linkText"],
+        ["css=.mw-disambig", "css:finder"],
+        ["xpath=//a[contains(text(),'India (disambiguation)')]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/India_(disambiguation)')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'India (disambiguation)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d1024ee2-0764-4fb3-844a-bbc1ca1a3c87",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.wikipedia.org/"],
+  "plugins": []
+}

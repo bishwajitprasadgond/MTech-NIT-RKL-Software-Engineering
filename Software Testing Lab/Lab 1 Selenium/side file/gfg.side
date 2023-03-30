@@ -1,0 +1,77 @@
+{
+  "id": "1c401d99-a926-4fde-ad3f-a2ab38ee34cc",
+  "version": "2.0",
+  "name": "ANI",
+  "url": "https://www.geeksforgeeks.org/",
+  "tests": [{
+    "id": "a269353c-8cc8-44b2-8687-1cc3ce009b53",
+    "name": "GFG",
+    "commands": [{
+      "id": "950f21d4-36fd-4486-918a-3e64b84b5ded",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.geeksforgeeks.org/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c106ea46-78c0-4f55-bb6a-dbae25addd10",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='RA-root']/div/div/div/div[2]/span/span/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ac18437-147a-40e0-827e-ee899edc9276",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='RA-root']/div/div/div/div[2]/span/span/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "Software Testing"
+    }, {
+      "id": "9f40b39f-4fe6-44ae-ab90-c117854d52e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn-lg > span",
+      "targets": [
+        ["css=.ant-btn-lg > span", "css:finder"],
+        ["xpath=//div[@id='RA-root']/div/div/div/div[2]/span/span/span[2]/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d57a6754-dc3f-4dc9-ba98-12790142e804",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=X",
+      "targets": [
+        ["linkText=X", "linkText"],
+        ["css=.twoyears-close-btn", "css:finder"],
+        ["xpath=//a[contains(text(),'X')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[14]", "xpath:href"],
+        ["xpath=//body/div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'X')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a5dc63b8-ea21-4f71-b8f7-cef0dc482fd8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a269353c-8cc8-44b2-8687-1cc3ce009b53"]
+  }],
+  "urls": ["https://aninews.in/", "https://www.geeksforgeeks.org/"],
+  "plugins": []
+}
