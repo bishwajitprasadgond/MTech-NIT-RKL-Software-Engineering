@@ -1,0 +1,47 @@
+Chapter	Slides	Relation to 2nd ed.
+ 
+Part I: Fundamental Algorithms
+1:	Introduction		[newly written]
+2:	Regular Expressions, Text Normalization, Edit Distance	2: Text Processing [pptx] [pdf]
+2: Edit Distance [pptx] [pdf]
+[Ch. 2 and parts of Ch. 3 in 2nd ed.]
+3:	N-gram Language Models	3: N-grams [pptx] [pdf]
+[Ch. 4 in 2nd ed.]
+4:	Naive Bayes and Sentiment Classification	4: Naive Bayes + Sentiment [pptx] [pdf]
+[new in this edition]
+5:	Logistic Regression	5: LR [pptx] [pdf]
+[new in this edition]
+6:	Vector Semantics and Embeddings	6: Vector Semantics [pptx] [pdf]	[new in this edition]
+7:	Neural Networks and Neural Language Models	7: Neural Networks [pptx] [pdf]	[new in this edition]
+8:	Sequence Labeling for Parts of Speech and Named Entities	8: POS/NER Intro only [pptx] [pdf]	[expanded from Ch. 5 in 2nd ed.]
+9:	RNNs and LSTMs		[new in this edition]
+10:	Transformers and Pretrained Language Models		[newly written for this edition]
+11:	Fine-tuning and Masked Language Models		[new in this edition]
+12:	Prompting and Instruct Tuning
+ 
+Part II: NLP Applications
+13:	Machine Translation		[newly written for this edition, earlier MT was Ch. 25 in 2nd ed.]
+14:	Question Answering and Information Retrieval		[mostly newly written ; a few sections expanded from parts of Ch 23 in 2nd ed]
+15:	Chatbots and Dialogue Systems	15: Dialog [pptx] [pdf]	[mostly new, parts expanded from Ch 24 in 2nd ed]
+16:	Automatic Speech Recognition and Text-to-Speech		[mostly newly written, ASR and TTS were Chs 8 and 9 in 2nd ed]
+ 
+Part III: Annotating Linguistic Structure
+17:	Context-Free Grammars and Constituency Parsing		[expanded from Ch. 12 and 13 in 2nd ed.]
+18:	Dependency Parsing		[new in this edition]
+19:	Logical Representations of Sentence Meaning		[Ch. 17 in 2nd ed.]
+20:	Computational Semantics and Semantic Parsing
+21:	Relation and Event Extraction		[expanded from Ch. 22 in 2nd ed.]
+22:	Time and Temporal Reasoning		[expanded from Ch. 22 in 2nd ed.]
+23:	Word Senses and WordNet		[expanded from Ch. 20 in 2nd ed.]
+24:	Semantic Role Labeling and Argument Structure		[expanded from parts of Ch. 19, 20 in 2nd ed]
+25:	Lexicons for Sentiment, Affect, and Connotation	25: Affect [pptx] [pdf]	[new in this edition]
+26:	Coreference Resolution		[mostly newly written; some sections expanded from parts of Ch 21 in 2nd ed]
+27:	Discourse Coherence		[mostly new for this edition]
+28:	Phonetics		[Ch 7 in 2nd ed]
+ 
+Appendix Chapters (will be just on the web)
+A:	Hidden Markov Models
+B:	Spelling Correction and the Noisy Channel
+C:	Statistical Constituency Parsing
+D:	Context-Free Grammars
+E:	Combinatory Categorial Grammar		[new in this edition]
